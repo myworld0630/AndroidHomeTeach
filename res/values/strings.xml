@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidHomeTeach</string>
+    <string name="title_activity_classMenu">Class Menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_firstClass">First Class</string>
+    <string name="title_activity_welcome">Welcome</string>
+
+</resources>

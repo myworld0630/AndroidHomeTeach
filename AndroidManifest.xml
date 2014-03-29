@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hometeach"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hometeach.Welcome"
+            android:label="@string/title_activity_welcome" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" /> 			<!-- 決定應用程式最先啟動的 Activity -->
+                <category android:name="android.intent.category.LAUNCHER" /> 	<!-- 決定應用程式是否顯示在程序列表裡 -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hometeach.classMenu"
+            android:label="@string/title_activity_classMenu" >
+        </activity>
+        <activity
+            android:name="com.example.hometeach.firstClass"
+            android:label="@string/title_activity_firstClass" >
+        </activity>
+    </application>
+
+</manifest>
