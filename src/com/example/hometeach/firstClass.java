@@ -17,7 +17,7 @@ import android.widget.TextView;
 
 public class FirstClass extends Activity {
 
-	@Override
+	@Override 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.firstclass);

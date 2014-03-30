@@ -13,6 +13,8 @@ import android.widget.TextView;
 
 public class FoodMenu extends Activity {
 
+	int a = 50;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -33,9 +35,13 @@ public class FoodMenu extends Activity {
     	int[] id={R.id.chk1, R.id.chk2, R.id.chk3, R.id.chk4}; 
 
     	for(int i:id){    // 以迴圈逐一檢視各 CheckBox 是否被選取
+    		
     		chk = (CheckBox) findViewById(i);
-    		if(chk.isChecked())            // 若有被選取
-    			msg+="\n"+chk.getText();   // 將換行字元及選項文字
+    		if(chk.isChecked()){
+    			if(i == R.id.chk1)
+    				msg += "\n" + chk.getText() + "(" + a + "元)";   // 將換行字元及選項文字
+    		}
+    		
     	}                                  // 附加到 msg 字串後面
 
     	if(msg.length()>0) // 有點餐

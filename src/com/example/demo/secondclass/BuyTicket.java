@@ -13,10 +13,16 @@ import android.widget.TextView;
 
 public class BuyTicket extends Activity {
 
+	TextView txv;
+	RadioGroup ticketType;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.buyticket);
+		
+		txv = (TextView) findViewById(R.id.txv);
+		ticketType = (RadioGroup) findViewById(R.id.ticketType);
 	}
 
 	@Override
@@ -27,9 +33,7 @@ public class BuyTicket extends Activity {
 	}
 
 	public void show(View v) {
-		TextView txv = (TextView) findViewById(R.id.txv);
-		RadioGroup ticketType = (RadioGroup) findViewById(R.id.ticketType);
-
+		
 		// 依選取項目顯示不同訊息 - 透過 getCheckedRadioButtonId 方法取得勾選狀態
 		switch (ticketType.getCheckedRadioButtonId()) {
 		case R.id.adult: // 選全票

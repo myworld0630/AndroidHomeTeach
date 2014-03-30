@@ -15,7 +15,7 @@ public class ClassMenu extends Activity {
 	public Button button2;
 	public Button button3;
 
-	@Override
+	@Override 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.classmenu);
