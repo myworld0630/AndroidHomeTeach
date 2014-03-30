@@ -7,8 +7,9 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="16" />
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
-    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
@@ -17,19 +18,61 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.hometeach.Welcome"
-            android:label="@string/title_activity_welcome" >
+            android:label="@string/title_activity_Welcome" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" /> 			<!-- 決定應用程式最先啟動的 Activity -->
-                <category android:name="android.intent.category.LAUNCHER" /> 	<!-- 決定應用程式是否顯示在程序列表裡 -->
+                <action android:name="android.intent.action.MAIN" />
+                <!-- 決定應用程式最先啟動的 Activity -->
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!-- 決定應用程式是否顯示在程序列表裡 -->
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.hometeach.classMenu"
-            android:label="@string/title_activity_classMenu" >
+            android:name="com.example.hometeach.ClassMenu"
+            android:label="@string/title_activity_ClassMenu" >
         </activity>
         <activity
-            android:name="com.example.hometeach.firstClass"
+            android:name="com.example.hometeach.FirstClass"
             android:label="@string/title_activity_firstClass" >
+        </activity>
+        <activity
+            android:name="com.example.hometeach.SecondClass"
+            android:label="@string/title_activity_SecondClass" >
+        </activity>
+        <activity
+            android:name="com.exampl.demo.secondclass.EditActivity"
+            android:label="@string/title_activity_edit" >
+        </activity>
+        <activity
+            android:name="com.example.hometeach.SecondClass_2"
+            android:label="@string/title_activity_scend_class_2" >
+        </activity>
+        <activity
+            android:name="com.exampl.demo.secondclass.MemoActivity"
+            android:label="@string/title_activity_memo" >
+        </activity>
+        <activity
+            android:name="com.exampl.demo.secondclass.BuyTicket"
+            android:label="@string/title_activity_buy_ticket" >
+        </activity>
+        <activity
+            android:name="com.exampl.demo.secondclass.TempConversion"
+            android:label="@string/title_activity_temp_conversion" >
+        </activity>
+        <activity
+            android:name="com.exampl.demo.secondclass.FoodMenu"
+            android:label="@string/title_activity_food_menu" >
+        </activity>
+        <activity
+            android:name="com.exampl.demo.secondclass.FoodMenuEvent"
+            android:label="@string/title_activity_food_menu_event" >
+        </activity>
+        <activity
+            android:name="com.exampl.demo.secondclass.FoodImgMenu"
+            android:label="@string/title_activity_food_img_menu" >
+        </activity>
+        <activity
+            android:name="com.exampl.demo.secondclass.ImgView"
+            android:label="@string/title_activity_img_view" >
         </activity>
     </application>
 

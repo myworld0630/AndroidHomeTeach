@@ -2,10 +2,24 @@
 <resources>
 
     <string name="app_name">AndroidHomeTeach</string>
-    <string name="title_activity_classMenu">Class Menu</string>
+    <string name="title_activity_ClassMenu">Class Menu</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_firstClass">First Class</string>
-    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_Welcome">Welcome</string>
+    <string name="title_activity_SecondClass">Second Class</string>
+    <string name="title_activity_eidt">編輯備忘錄</string>
+    <string name="title_activity_edit">編輯備忘錄</string>
+    <string name="title_activity_other">Other</string>
+    <string name="title_activity_scend_class_2">Scend Class 2</string>
+    <string name="title_activity_memo">備忘錄</string>
+    <string name="title_activity_buy_ticket">BuyTicket</string>
+    <string name="title_activity_temp_conversion">TempConversion</string>
+    <string name="charF">&quot;\u2109&quot;</string>
+    <string name="charC">&quot;\u2103&quot;</string>
+    <string name="title_activity_food_menu">FoodMenu</string>
+    <string name="title_activity_food_menu_event">FoodMenuEvent</string>
+    <string name="title_activity_food_img_menu">FoodImgMenu</string>
+    <string name="title_activity_img_view">ImgView</string>
 
 </resources>

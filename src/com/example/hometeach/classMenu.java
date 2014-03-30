@@ -9,33 +9,53 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
-public class classMenu extends Activity {
+public class ClassMenu extends Activity {
 
 	public Button button1;
-	
+	public Button button2;
+	public Button button3;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
-		
+		setContentView(R.layout.classmenu);
+
+		// //////////////////////////////////////////////////////////////////
 		button1 = (Button) findViewById(R.id.Button1);
-		
-		button1.setOnClickListener(new Button.OnClickListener(){
-			
+
+		button1.setOnClickListener(new Button.OnClickListener() {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent();
-				intent.setClass(classMenu.this, firstClass.class);
-				startActivity(intent); 
-				classMenu.this.finish(); 
-			}         
-        });		
+				intent.setClass(ClassMenu.this, FirstClass.class);
+				startActivity(intent);
+				ClassMenu.this.finish();
+			}
+		});
+		// //////////////////////////////////////////////////////////////////
+		button2 = (Button) findViewById(R.id.Button2);
+
+		button2.setOnClickListener(new Button.OnClickListener() {
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				String messageStringArray[] = { "Welcome Activity", "to",
+						"SecondClass Activity" }; // 要傳送的資料
+				String messageString = "Welcome Activity to SecondClass Activity";
+				int messageInt = 100;
+				Intent intent = new Intent(ClassMenu.this, SecondClass.class);
+				intent.putExtra("messageStringArray", messageStringArray);
+				intent.putExtra("messageString", messageString);
+				intent.putExtra("messageInt", messageInt);
+				startActivity(intent);
+				ClassMenu.this.finish();
+			}
+		});
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
+		getMenuInflater().inflate(R.menu.classmenu, menu);
 		return true;
 	}
 

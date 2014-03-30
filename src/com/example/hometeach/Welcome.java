@@ -37,7 +37,7 @@ public class Welcome extends Activity {
 	}
 
 	private void gotoMain(){
-		Intent it = new Intent(Welcome.this, classMenu.class);	//Intent 想要:想要從 Welcome 跳到 MainActivity
+		Intent it = new Intent(Welcome.this, ClassMenu.class);	//Intent 想要:想要從 Welcome 跳到 MainActivity
 		startActivity(it);
 		Welcome.this.finish();
 	}

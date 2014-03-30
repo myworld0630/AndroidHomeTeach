@@ -15,7 +15,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class firstClass extends Activity {
+public class FirstClass extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -29,9 +29,9 @@ public class firstClass extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent();
-				intent.setClass(firstClass.this, classMenu.class);
+				intent.setClass(FirstClass.this, ClassMenu.class);
 				startActivity(intent);
-				firstClass.this.finish();
+				FirstClass.this.finish();
 			}
 		});
 		/////////////////////////////////////////////////////////////////////
@@ -104,9 +104,9 @@ public class firstClass extends Activity {
         if (keyCode == KeyEvent.KEYCODE_BACK)
         {
         	Intent intent = new Intent();
-			intent.setClass(firstClass.this, classMenu.class);
+			intent.setClass(FirstClass.this, ClassMenu.class);
 			startActivity(intent);
-			firstClass.this.finish();
+			FirstClass.this.finish();
             return true;
         }
         
