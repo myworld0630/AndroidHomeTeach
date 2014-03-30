@@ -13,7 +13,7 @@ import android.widget.ListView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
 
-import com.exampl.demo.secondclass.*;
+import com.example.demo.secondclass.*;
 
 public class SecondClass extends Activity implements OnItemClickListener{
 

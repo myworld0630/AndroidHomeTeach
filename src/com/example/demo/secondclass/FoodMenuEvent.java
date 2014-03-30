@@ -1,4 +1,4 @@
-package com.exampl.demo.secondclass;
+package com.example.demo.secondclass;
 
 import java.util.ArrayList;
 

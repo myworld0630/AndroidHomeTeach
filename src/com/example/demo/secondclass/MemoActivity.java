@@ -1,4 +1,4 @@
-package com.exampl.demo.secondclass;
+package com.example.demo.secondclass;
 
 import com.example.hometeach.R;
 import com.example.hometeach.R.id;

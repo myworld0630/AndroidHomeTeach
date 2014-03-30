@@ -39,7 +39,7 @@
             android:label="@string/title_activity_SecondClass" >
         </activity>
         <activity
-            android:name="com.exampl.demo.secondclass.EditActivity"
+            android:name="com.example.demo.secondclass.EditActivity"
             android:label="@string/title_activity_edit" >
         </activity>
         <activity
@@ -47,31 +47,31 @@
             android:label="@string/title_activity_scend_class_2" >
         </activity>
         <activity
-            android:name="com.exampl.demo.secondclass.MemoActivity"
+            android:name="com.example.demo.secondclass.MemoActivity"
             android:label="@string/title_activity_memo" >
         </activity>
         <activity
-            android:name="com.exampl.demo.secondclass.BuyTicket"
+            android:name="com.example.demo.secondclass.BuyTicket"
             android:label="@string/title_activity_buy_ticket" >
         </activity>
         <activity
-            android:name="com.exampl.demo.secondclass.TempConversion"
+            android:name="com.example.demo.secondclass.TempConversion"
             android:label="@string/title_activity_temp_conversion" >
         </activity>
         <activity
-            android:name="com.exampl.demo.secondclass.FoodMenu"
+            android:name="com.example.demo.secondclass.FoodMenu"
             android:label="@string/title_activity_food_menu" >
         </activity>
         <activity
-            android:name="com.exampl.demo.secondclass.FoodMenuEvent"
+            android:name="com.example.demo.secondclass.FoodMenuEvent"
             android:label="@string/title_activity_food_menu_event" >
         </activity>
         <activity
-            android:name="com.exampl.demo.secondclass.FoodImgMenu"
+            android:name="com.example.demo.secondclass.FoodImgMenu"
             android:label="@string/title_activity_food_img_menu" >
         </activity>
         <activity
-            android:name="com.exampl.demo.secondclass.ImgView"
+            android:name="com.example.demo.secondclass.ImgView"
             android:label="@string/title_activity_img_view" >
         </activity>
     </application>
