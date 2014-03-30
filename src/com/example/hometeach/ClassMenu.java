@@ -39,7 +39,7 @@ public class ClassMenu extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				String messageStringArray[] = { "Welcome Activity", "to",
-						"SecondClass Activity" }; // ­n¶Ç°eªº¸ê®Æ
+						"SecondClass Activity" }; // ï¿½nï¿½Ç°eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				String messageString = "Welcome Activity to SecondClass Activity";
 				int messageInt = 100;
 				Intent intent = new Intent(ClassMenu.this, SecondClass.class);
