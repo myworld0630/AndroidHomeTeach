@@ -32,7 +32,7 @@ public class ThirdClass extends Activity implements OnItemClickListener{
 		adapter.add("TicketSpinner");
 		adapter.add("EnergyCalculator");
 		adapter.add("ListMenu");
-		adapter.add("ArrayAdapter");
+		adapter.add("ArrayAdaptor");
 		adapter.add("BrainTeaser");
 		adapter.add("BrainTeaser2");
 		adapter.add("DialogShow");
@@ -79,8 +79,8 @@ public class ThirdClass extends Activity implements OnItemClickListener{
 			it = new Intent(this, ListMenu.class);
 			startActivity(it);
 		}
-		else if(listView.getItemAtPosition(pos).toString().equals("ArrayAdapter")){
-			it = new Intent(this, ArrayAdapter.class);
+		else if(listView.getItemAtPosition(pos).toString().equals("ArrayAdaptor")){
+			it = new Intent(this, ArrayAdaptor.class);
 			startActivity(it);
 		}
 		else if(listView.getItemAtPosition(pos).toString().equals("BrainTeaser")){
