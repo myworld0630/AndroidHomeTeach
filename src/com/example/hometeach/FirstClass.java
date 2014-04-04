@@ -41,7 +41,7 @@ public class firstClass extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				System.out.println("§â¤å¦rÅÜ¤j");	//¥i¥H¦b LogCat¿é¤J tag:system.out ®·®»°T®§
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½rï¿½Ü¤j");	//ï¿½iï¿½Hï¿½b LogCatï¿½ï¿½ï¿½J tag:system.out ï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½
 				TextView textView = (TextView) findViewById(R.id.TextView02);
 				System.out.println(textView.getTextSize());
 				textView.setTextSize(35);
@@ -53,7 +53,7 @@ public class firstClass extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				System.out.println("¨ú±o¤å¦r¤º®e");
+				System.out.println("ï¿½ï¿½ï¿½oï¿½ï¿½ï¿½rï¿½ï¿½ï¿½e");
 				EditText editText = (EditText) findViewById(R.id.editText1);
 				TextView textView = (TextView) findViewById(R.id.textView1);
 				textView.setText(textView.getText()+editText.getText().toString());
@@ -65,10 +65,10 @@ public class firstClass extends Activity {
 			@Override
 			public boolean onLongClick(View v) {
 				// TODO Auto-generated method stub
-				System.out.println("ªø«ö¾_°Ê");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½");
 				Vibrator vb = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-				vb.vibrate(500); //¾_°Ê500ms
-				vb.cancel(); //°±¤î¾_°Ê
+				vb.vibrate(500); //ï¿½_ï¿½ï¿½500ms
+				vb.cancel(); //ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½
 				return true;
 			}
 		});
@@ -79,11 +79,11 @@ public class firstClass extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent();
-				intent.setAction(Intent.ACTION_VIEW);	//Åã¥Ü¼·¥´µe­±
-				//intent.setAction(Intent.ACTION_CALL);	//ª½±µ¼·¥´¹q¸Ü
+				intent.setAction(Intent.ACTION_VIEW);	//ï¿½ï¿½ï¿½Ü¼ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½
+				//intent.setAction(Intent.ACTION_CALL);	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½qï¿½ï¿½
 				intent.setData(Uri.parse("tel:0800080123"));
 				startActivity(intent);
-				//firstClass.this.finish();	//¦pªG¦³³o¦æ¡A«ö backky ¥u¯à¦^¨ì¥Dµe­±
+				//firstClass.this.finish();	//ï¿½pï¿½Gï¿½ï¿½ï¿½oï¿½ï¿½ï¿½Aï¿½ï¿½ backky ï¿½uï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½Dï¿½eï¿½ï¿½
 			}
 		});
 		/////////////////////////////////////////////////////////////////////
