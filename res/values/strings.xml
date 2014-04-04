@@ -2,10 +2,66 @@
 <resources>
 
     <string name="app_name">AndroidHomeTeach</string>
-    <string name="title_activity_classMenu">Class Menu</string>
+    <string name="title_activity_ClassMenu">Class Menu</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_firstClass">First Class</string>
-    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_Welcome">Welcome</string>
+    <string name="title_activity_SecondClass">Second Class</string>
+    <string name="title_activity_edit">編輯備忘錄</string>
+    <string name="title_activity_other">Other</string>
+    <string name="title_activity_scend_class_2">Scend Class 2</string>
+    <string name="title_activity_memo">備忘錄</string>
+    <string name="title_activity_buy_ticket">BuyTicket</string>
+    <string name="title_activity_temp_conversion">TempConversion</string>
+    <string name="charF">&quot;\u2109&quot;</string>
+    <string name="charC">&quot;\u2103&quot;</string>
+    <string name="title_activity_food_menu">FoodMenu</string>
+    <string name="title_activity_food_menu_event">FoodMenuEvent</string>
+    <string name="title_activity_food_img_menu">FoodImgMenu</string>
+    <string name="title_activity_img_view">ImgView</string>
+    <string name="title_activity_third_class">ThirdClass</string>
+    <string name="title_activity_array_adaptor">ArrayAdaptor</string>
+    <string name="title_activity_ticket_spinner">TicketSpinner</string>
+
+    <string-array name="cinemas">
+        <item>台北影城</item>
+        <item>高雄影城</item>
+        <item>板橋影城</item>
+        <item>台中影城</item>
+        <item>台南影城</item>
+    </string-array>
+
+    <string name="title_activity_energy_calculator">EnergyCalculator</string>
+
+    <string-array name="sports">
+        <item>慢走</item>
+        <item>快走或游泳</item>
+        <item>跑步</item>
+        <item>自行車</item>
+        <item>羽毛球</item>
+        <item>高爾夫</item>
+    </string-array>
+
+    <string name="title_activity_list_menu">ListMenu</string>
+
+    <string-array name="menuItems">
+        <item>漢堡</item>
+        <item>薯條</item>
+        <item>可樂</item>
+        <item>玉米濃湯</item>
+    </string-array>
+    <string-array name="drinkname">
+        <item>珍珠奶茶</item>
+        <item>波霸奶茶</item>
+        <item>仙草凍奶茶</item>
+        <item>檸檬汁</item>
+    </string-array>
+
+    <string name="title_activity_brain_teaser">BrainTeaser</string>
+    <string name="title_activity_brain_teaser2">BrainTeaser2</string>
+    <string name="title_activity_date_time_picker">DateTimePicker</string>
+    <string name="title_activity_dialog_ask">DialogAsk</string>
+    <string name="title_activity_dialog_show">DialogShow</string>
 
 </resources>

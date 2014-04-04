@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" >
+
+        <CheckBox
+            android:id="@+id/chk1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="漢堡"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chk2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="薯條"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" >
+
+        <CheckBox
+            android:id="@+id/chk3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="可樂"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chk4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="玉米濃湯"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" >
+
+        <CheckBox
+            android:id="@+id/chk5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="雞塊"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chk6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="沙拉"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" >
+
+        <CheckBox
+            android:id="@+id/chk7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="咖啡"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chk8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="蘋果派"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="takeOrder"
+        android:text="訂購"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" >
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/showOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:onClick="takeOrder"
+            android:textSize="30dp" />
+    </ScrollView>
+
+</LinearLayout>
