@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txv"
+        android:layout_centerHorizontal="true"
+        android:onClick="show"
+        android:text="確定" />
+
+    <RadioGroup
+        android:id="@+id/ticketType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true" >
+
+        <RadioButton
+            android:id="@+id/adult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="全票" />
+
+        <RadioButton
+            android:id="@+id/child"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="半票" />
+
+        <RadioButton
+            android:id="@+id/senior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="敬老票" />
+    </RadioGroup>
+
+</RelativeLayout>
