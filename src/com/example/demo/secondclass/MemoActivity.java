@@ -1,9 +1,6 @@
 package com.example.demo.secondclass;
 
 import com.example.hometeach.R;
-import com.example.hometeach.R.id;
-import com.example.hometeach.R.layout;
-import com.example.hometeach.R.menu;
 
 import android.os.Bundle;
 import android.app.Activity;

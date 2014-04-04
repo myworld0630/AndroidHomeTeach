@@ -1,10 +1,6 @@
 package com.example.demo.thirdclass;
 
 import com.example.hometeach.R;
-import com.example.hometeach.R.array;
-import com.example.hometeach.R.id;
-import com.example.hometeach.R.layout;
-import com.example.hometeach.R.menu;
 
 import android.app.Activity;
 import android.os.Bundle;
