@@ -1,8 +1,6 @@
 package com.example.demo.secondclass;
 
 import com.example.hometeach.R;
-import com.example.hometeach.R.layout;
-import com.example.hometeach.R.menu;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -23,7 +21,6 @@ public class EditActivity extends Activity {
         setContentView(R.layout.activityedit);
         
         Intent it = getIntent();               //取得傳入的 Intent 物件
-        int no = it.getIntExtra("編號", 0);    //讀出名為 "編號" 的 Int 資料, 若沒有則傳回 0
         String s = it.getStringExtra("備忘");  //讀出名為 "備忘" 的 String 資料
 
         txv = (TextView)findViewById(R.id.textView1);

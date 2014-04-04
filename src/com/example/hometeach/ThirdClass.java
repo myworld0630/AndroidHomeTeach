@@ -8,12 +8,9 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.AdapterView.OnItemLongClickListener;
 
-import com.example.demo.secondclass.*;
 import com.example.demo.thirdclass.*;
 
 public class ThirdClass extends Activity implements OnItemClickListener{
@@ -38,6 +35,10 @@ public class ThirdClass extends Activity implements OnItemClickListener{
 		adapter.add("DialogShow");
 		adapter.add("DialogAsk");
 		adapter.add("DateTimePicker");
+		adapter.add("OptionsMenu");
+		adapter.add("SubMenu");
+		adapter.add("GalleryDemo");
+		adapter.add("GridViewDemo");
 		listView.setAdapter(adapter);
 		listView.setOnItemClickListener(this);
 	}
@@ -101,6 +102,22 @@ public class ThirdClass extends Activity implements OnItemClickListener{
 		}
 		else if(listView.getItemAtPosition(pos).toString().equals("DateTimePicker")){
 			it = new Intent(this, DateTimePicker.class);
+			startActivity(it);
+		}
+		else if(listView.getItemAtPosition(pos).toString().equals("OptionsMenu")){
+			it = new Intent(this, OptionsMenu.class);
+			startActivity(it);
+		}
+		else if(listView.getItemAtPosition(pos).toString().equals("SubMenu")){
+			it = new Intent(this, SubMenu.class);
+			startActivity(it);
+		}
+		else if(listView.getItemAtPosition(pos).toString().equals("GalleryDemo")){
+			it = new Intent(this, GalleryDemo.class);
+			startActivity(it);
+		}
+		else if(listView.getItemAtPosition(pos).toString().equals("GridViewDemo")){
+			it = new Intent(this, GridViewDemo.class);
 			startActivity(it);
 		}
 	}

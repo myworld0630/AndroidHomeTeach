@@ -1,11 +1,9 @@
 package com.example.demo.thirdclass;
 
 import com.example.hometeach.R;
-import com.example.hometeach.R.id;
-import com.example.hometeach.R.layout;
-import com.example.hometeach.R.menu;
 
 import android.os.Bundle;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.View;
@@ -15,6 +13,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
 
+@SuppressLint("ShowToast")
 public class BrainTeaser2 extends Activity implements OnItemClickListener {
 
 	// 建立問題陣列
@@ -51,7 +50,7 @@ public class BrainTeaser2 extends Activity implements OnItemClickListener {
 		tos.show();                   // 立即重新顯示
 	}
 	
-	@Override
+	
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.brainteaser2, menu);

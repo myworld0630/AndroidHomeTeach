@@ -32,8 +32,30 @@ public final class R {
         public static final int hamburger=0x7f020002;
         public static final int ic_launcher=0x7f020003;
         public static final int image1=0x7f020004;
-        public static final int softdrink=0x7f020005;
-        public static final int soup=0x7f020006;
+        public static final int p01=0x7f020005;
+        public static final int p02=0x7f020006;
+        public static final int p03=0x7f020007;
+        public static final int p04=0x7f020008;
+        public static final int p05=0x7f020009;
+        public static final int p06=0x7f02000a;
+        public static final int p07=0x7f02000b;
+        public static final int p08=0x7f02000c;
+        public static final int p09=0x7f02000d;
+        public static final int p10=0x7f02000e;
+        public static final int p11=0x7f02000f;
+        public static final int p12=0x7f020010;
+        public static final int p13=0x7f020011;
+        public static final int p14=0x7f020012;
+        public static final int p15=0x7f020013;
+        public static final int p16=0x7f020014;
+        public static final int p17=0x7f020015;
+        public static final int p18=0x7f020016;
+        public static final int p19=0x7f020017;
+        public static final int p20=0x7f020018;
+        public static final int p21=0x7f020019;
+        public static final int p22=0x7f02001a;
+        public static final int softdrink=0x7f02001b;
+        public static final int soup=0x7f02001c;
     }
     public static final class id {
         public static final int Button02=0x7f09001e;
@@ -42,12 +64,12 @@ public final class R {
         public static final int Button3=0x7f090012;
         public static final int Button4=0x7f090013;
         public static final int Button5=0x7f090014;
-        public static final int EditText01=0x7f09003a;
-        public static final int EditText02=0x7f09003b;
+        public static final int EditText01=0x7f09003d;
+        public static final int EditText02=0x7f09003e;
         public static final int LinearLayout1=0x7f090000;
         public static final int TextView01=0x7f09001a;
         public static final int TextView02=0x7f09001d;
-        public static final int action_settings=0x7f090047;
+        public static final int action_settings=0x7f09004a;
         public static final int adult=0x7f09000d;
         public static final int answer=0x7f090016;
         public static final int btnCancel=0x7f090003;
@@ -65,15 +87,20 @@ public final class R {
         public static final int chk6=0x7f090036;
         public static final int chk7=0x7f090037;
         public static final int chk8=0x7f090038;
-        public static final int cinema=0x7f090044;
-        public static final int degC=0x7f090043;
-        public static final int degF=0x7f090042;
+        public static final int cinema=0x7f090047;
+        public static final int degC=0x7f090046;
+        public static final int degF=0x7f090045;
         public static final int drink=0x7f090006;
         public static final int editText1=0x7f090002;
         public static final int editText2=0x7f090022;
         public static final int editText3=0x7f090024;
         public static final int editText4=0x7f090026;
-        public static final int imageView1=0x7f09003c;
+        public static final int exit=0x7f09004f;
+        public static final int gallery=0x7f09003a;
+        public static final int gridView=0x7f09003c;
+        public static final int guide=0x7f090050;
+        public static final int imageView=0x7f09003b;
+        public static final int imageView1=0x7f09003f;
         public static final int img1=0x7f090028;
         public static final int img2=0x7f09002a;
         public static final int img3=0x7f09002c;
@@ -81,17 +108,19 @@ public final class R {
         public static final int listView1=0x7f090005;
         public static final int lv=0x7f09000a;
         public static final int msg=0x7f09002f;
-        public static final int msgTxv=0x7f09003d;
+        public static final int msgTxv=0x7f090040;
+        public static final int myloc=0x7f09004e;
         public static final int order=0x7f090009;
         public static final int output1=0x7f090030;
         public static final int output2=0x7f090031;
         public static final int output3=0x7f090032;
         public static final int output4=0x7f090033;
-        public static final int progressBar1=0x7f090046;
+        public static final int progressBar1=0x7f090049;
         public static final int senior=0x7f09000f;
         public static final int showOrder=0x7f090034;
         public static final int sports=0x7f090017;
         public static final int sv=0x7f090039;
+        public static final int taroko=0x7f09004d;
         public static final int temp=0x7f090007;
         public static final int textView1=0x7f090001;
         public static final int textView2=0x7f090015;
@@ -100,14 +129,17 @@ public final class R {
         public static final int ticketType=0x7f09000c;
         public static final int timeSpan=0x7f09001b;
         public static final int total=0x7f09001c;
+        public static final int traffic=0x7f090051;
         public static final int txv=0x7f09000b;
         public static final int txvRate=0x7f090018;
-        public static final int unit=0x7f09003e;
-        public static final int unitC=0x7f090040;
-        public static final int unitF=0x7f09003f;
-        public static final int value=0x7f090041;
+        public static final int unit=0x7f090041;
+        public static final int unitC=0x7f090043;
+        public static final int unitF=0x7f090042;
+        public static final int value=0x7f090044;
         public static final int weight=0x7f090019;
-        public static final int welcome=0x7f090045;
+        public static final int welcome=0x7f090048;
+        public static final int yangmingshan=0x7f09004b;
+        public static final int yushan=0x7f09004c;
     }
     public static final class layout {
         public static final int activityedit=0x7f030000;
@@ -125,13 +157,17 @@ public final class R {
         public static final int foodimgmenu=0x7f03000c;
         public static final int foodmenu=0x7f03000d;
         public static final int foodmenuevent=0x7f03000e;
-        public static final int imgview=0x7f03000f;
-        public static final int listmenu=0x7f030010;
-        public static final int secondclass=0x7f030011;
-        public static final int tempconversion=0x7f030012;
-        public static final int thirdclass=0x7f030013;
-        public static final int ticketspinner=0x7f030014;
-        public static final int welcome=0x7f030015;
+        public static final int gallerydemo=0x7f03000f;
+        public static final int gridviewdemo=0x7f030010;
+        public static final int imgview=0x7f030011;
+        public static final int listmenu=0x7f030012;
+        public static final int optionsmenu=0x7f030013;
+        public static final int secondclass=0x7f030014;
+        public static final int submenu=0x7f030015;
+        public static final int tempconversion=0x7f030016;
+        public static final int thirdclass=0x7f030017;
+        public static final int ticketspinner=0x7f030018;
+        public static final int welcome=0x7f030019;
     }
     public static final class menu {
         public static final int arrayadaptor=0x7f080000;
@@ -148,21 +184,30 @@ public final class R {
         public static final int foodimgmenu=0x7f08000b;
         public static final int foodmenu=0x7f08000c;
         public static final int foodmenuevent=0x7f08000d;
-        public static final int imgview=0x7f08000e;
-        public static final int listmenu=0x7f08000f;
-        public static final int memo=0x7f080010;
-        public static final int secondclass=0x7f080011;
-        public static final int tempconversion=0x7f080012;
-        public static final int thirdclass=0x7f080013;
-        public static final int ticketspinner=0x7f080014;
-        public static final int welcome=0x7f080015;
+        public static final int gallerydemo=0x7f08000e;
+        public static final int gridviewdemo=0x7f08000f;
+        public static final int imgview=0x7f080010;
+        public static final int listmenu=0x7f080011;
+        public static final int memo=0x7f080012;
+        public static final int optionsmenu=0x7f080013;
+        public static final int secondclass=0x7f080014;
+        public static final int submenu=0x7f080015;
+        public static final int tempconversion=0x7f080016;
+        public static final int thirdclass=0x7f080017;
+        public static final int ticketspinner=0x7f080018;
+        public static final int welcome=0x7f080019;
     }
     public static final class string {
         public static final int action_settings=0x7f050002;
         public static final int app_name=0x7f050000;
         public static final int charC=0x7f05000e;
         public static final int charF=0x7f05000d;
+        public static final int exit=0x7f050024;
+        public static final int guide=0x7f05001f;
         public static final int hello_world=0x7f050003;
+        public static final int myloc=0x7f050023;
+        public static final int prompt=0x7f050025;
+        public static final int taroko=0x7f050022;
         public static final int title_activity_ClassMenu=0x7f050001;
         public static final int title_activity_SecondClass=0x7f050006;
         public static final int title_activity_Welcome=0x7f050005;
@@ -179,14 +224,21 @@ public final class R {
         public static final int title_activity_food_img_menu=0x7f050011;
         public static final int title_activity_food_menu=0x7f05000f;
         public static final int title_activity_food_menu_event=0x7f050010;
+        public static final int title_activity_gallery_demo=0x7f050027;
+        public static final int title_activity_grid_view_demo=0x7f050028;
         public static final int title_activity_img_view=0x7f050012;
         public static final int title_activity_list_menu=0x7f050017;
         public static final int title_activity_memo=0x7f05000a;
+        public static final int title_activity_options_menu=0x7f05001d;
         public static final int title_activity_other=0x7f050008;
         public static final int title_activity_scend_class_2=0x7f050009;
+        public static final int title_activity_sub_menu=0x7f050026;
         public static final int title_activity_temp_conversion=0x7f05000c;
         public static final int title_activity_third_class=0x7f050013;
         public static final int title_activity_ticket_spinner=0x7f050015;
+        public static final int traffic=0x7f050020;
+        public static final int yangmingshan=0x7f05001e;
+        public static final int yushan=0x7f050021;
     }
     public static final class style {
         /** 
@@ -216,4 +268,25 @@ public final class R {
          */
         public static final int AppTheme=0x7f070001;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a GalleryDemo.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #GalleryDemo_android_galleryItemBackground android:galleryItemBackground}</code></td><td></td></tr>
+           </table>
+           @see #GalleryDemo_android_galleryItemBackground
+         */
+        public static final int[] GalleryDemo = {
+            0x0101004c
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#galleryItemBackground}
+          attribute's value can be found in the {@link #GalleryDemo} array.
+          @attr name android:galleryItemBackground
+        */
+        public static final int GalleryDemo_android_galleryItemBackground = 0;
+    };
 }
