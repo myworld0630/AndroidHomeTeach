@@ -42,7 +42,7 @@
                 android:id="@+id/Button4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button 4" />
+                android:text="第四課" />
 
             <Button
                 android:id="@+id/Button5"

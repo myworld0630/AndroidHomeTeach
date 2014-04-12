@@ -45,17 +45,21 @@ public class EnergyCalculator extends Activity implements OnItemSelectedListener
     
 	public void calc(View v){
 		// 取得使用者輸入的體重
-		double w=Double.parseDouble(weight.getText().toString());
-		// 取得使用者輸入的運動時間長度
-		double t=Double.parseDouble(time.getText().toString());
-
-		int selected=sports.getSelectedItemPosition(); // 取得目前選取項目的索引
-
-		// 計算消耗能量=能量消耗率*體重*運動時間長度
-		long consumedEnergy=Math.round(energyRate[selected]*w*t);
-
-		total.setText(		// 顯示計算結果
-				String.format("消耗能量\n  %d仟卡", consumedEnergy));
+		
+		if( (!weight.getText().toString().equals("")) && (!time.getText().toString().equals("") )){
+			double w=Double.parseDouble(weight.getText().toString());
+			// 取得使用者輸入的運動時間長度
+			double t=Double.parseDouble(time.getText().toString());
+			int selected=sports.getSelectedItemPosition(); // 取得目前選取項目的索引
+			// 計算消耗能量=能量消耗率*體重*運動時間長度
+			long consumedEnergy=Math.round(energyRate[selected]*w*t);
+			total.setText(		// 顯示計算結果
+					String.format("消耗能量\n  %d仟卡", consumedEnergy));
+		}
+		else{
+			System.out.println("String is empty");
+		}
+		
 	}
     	
 	

@@ -18,7 +18,8 @@ public class ArrayAdaptor extends Activity implements OnItemSelectedListener {
 	TextView txv; // 顯示訂單內容的 TextView
 	String[] tempSet1 = { "冰", "去冰", "溫" }; // 三種溫度
 	String[] tempSet2 = { "冰", "去冰" }; // 兩種溫度
-
+	String[] drinks = { "奶茶1", "奶茶2","奶茶3","檸檬汁" }; // 飲料清單
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -26,7 +27,19 @@ public class ArrayAdaptor extends Activity implements OnItemSelectedListener {
 
 		txv = (TextView) findViewById(R.id.order);
 		temp = (Spinner) findViewById(R.id.temp); // 找出顯示溫度的 Spinner
+		
+		//////////////////////////////////////////////////////////////////////////////
 		drink = (Spinner) findViewById(R.id.drink); // 找出顯示飲品項目的 Spinner
+		
+		String[] tempSet = drinks;
+		ArrayAdapter<String> tempAd = 
+				new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, // 選單位打開時的顯示樣式
+						tempSet);
+		tempAd.setDropDownViewResource( // 設定下拉選單的選項樣式
+				android.R.layout.simple_spinner_dropdown_item);
+		drink.setAdapter(tempAd);
+		//////////////////////////////////////////////////////////////////////////////
+		
 		drink.setOnItemSelectedListener(this); // 設定監聽選取事件
 	}
 

@@ -20,6 +20,7 @@ public class GalleryDemo extends Activity {
 
 	ImageView imageView;
 	Gallery gallery;
+	
 	private Integer[] images = {
 			R.drawable.p01, R.drawable.p02, R.drawable.p03, R.drawable.p04, 
 			R.drawable.p05, R.drawable.p06, R.drawable.p07
@@ -86,7 +87,7 @@ public class GalleryDemo extends Activity {
         	 ImageView imageView;
              if (convertView == null) {  
                  imageView = new ImageView(context);
-                 imageView.setLayoutParams(new Gallery.LayoutParams(300, 300));
+                 imageView.setLayoutParams(new Gallery.LayoutParams(500, 500));
                  imageView.setScaleType(ImageView.ScaleType.FIT_XY);
                  imageView.setBackgroundResource(galleryItemBackground);
              } else {

@@ -3,6 +3,7 @@ package com.example.demo.thirdclass;
 import com.example.hometeach.R;
 
 import android.app.Activity;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 public class TicketSpinner extends Activity {
+	
 	TextView txv;	
 	Spinner cinema;	// 戲院清單物件
 	@Override

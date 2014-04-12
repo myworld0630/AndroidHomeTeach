@@ -75,5 +75,13 @@
     <string name="title_activity_sub_menu">SubMenu</string>
     <string name="title_activity_gallery_demo">GalleryDemo</string>
     <string name="title_activity_grid_view_demo">GridViewDemo</string>
+    <string name="title_activity_hello_sqlite">HelloSQLite</string>
+    <string name="title_activity_fourth_class">FourthClass</string>
+    <string name="title_activity_hello_cursor">HelloCursor</string>
+    <string name="title_activity_my_hotline">MyHotline</string>
+    <string name="title_activity_simple_location">SimpleLocation</string>
+    <string name="title_activity_geocoder">Geocoder</string>
+    <string name="title_activity_my_map">MyMap</string>
+    <string name="title_activity_my_map2">MyMap2</string>
 
 </resources>

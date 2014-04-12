@@ -14,8 +14,9 @@ public class ClassMenu extends Activity {
 	public Button button1;
 	public Button button2;
 	public Button button3;
+	public Button button4;
 
-	@Override 
+	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.classmenu);
@@ -57,6 +58,17 @@ public class ClassMenu extends Activity {
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent(ClassMenu.this, ThirdClass.class);
+				startActivity(intent);
+				ClassMenu.this.finish();
+			}
+		});
+		// //////////////////////////////////////////////////////////////////
+		button4 = (Button) findViewById(R.id.Button4);
+
+		button4.setOnClickListener(new Button.OnClickListener() {
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(ClassMenu.this, FourthClass.class);
 				startActivity(intent);
 				ClassMenu.this.finish();
 			}
